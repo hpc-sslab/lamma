@@ -1,0 +1,98 @@
+CC=icc
+CFLAG=-O3 -g3 -qopenmp -mkl -xCORE-AVX512 -restrict
+MODULECFLAG=-O3 -g3 -qopenmp -mkl -xCORE-AVX512 -restrict
+INCLUDE_MINE=-I./ 
+INCLUDE_ATLAS=-I./ -L./lib_atlas -lcblas
+INCLUDE_BLIS=-I./ -L./lib_blis -lblis
+KERNEL=
+M=
+N=
+K=
+
+# NT  : packing parallelism
+# NT1 : I loop packing
+# NT2 : JR loop packing
+NT=
+NT1=
+NT2=
+
+SRC=1.bruteforce
+
+#folder
+SEARCHDIR=searchMethod
+KERNELDIR=kernel
+RECORDDIR=speedRecord
+RESULTDIR=result
+FUNCTNDIR=function
+
+#################### MINE ##################################
+
+compileKernel:
+	$(CC) $(KERNELDIR)/$(KERNEL).c $(CFLAG) -c \
+		-DNT=${NT} -DNT1=${NT1} -DNT2=${NT2} \
+		-o $(KERNELDIR)/$(KERNEL).o $(INCLUDE_MINE)
+
+validKernel:
+	$(CC) valid_test.c $(KERNELDIR)/$(KERNEL).o $(CFLAG) \
+		-o $(KERNELDIR)/$(KERNEL).valid $(INCLUDE_MINE) \
+		-DMSIZE=$M -DNSIZE=$N -DKSIZE=$K -DNT=${NT} -DNT1=${NT1} -DNT2=${NT2}
+	sh ./set_affinity.sh ${NT1} ${NT2} ./$(KERNELDIR)/$(KERNEL).valid > $(RECORDDIR)/$(KERNEL).out
+
+flopsKernel:
+	$(CC) flops_test.c $(KERNELDIR)/$(KERNEL).o $(CFLAG) \
+		-o $(KERNELDIR)/$(KERNEL).flops $(INCLUDE_MINE) \
+		-DMSIZE=$M -DNSIZE=$N -DKSIZE=$K -DNT=${NT} -DNT1=${NT1} -DNT2=${NT2}
+
+executeKernel:
+	sh ./set_affinity.sh ${NT1} ${NT2} ./$(KERNELDIR)/$(KERNEL).flops >> $(RECORDDIR)/$(KERNEL).res
+
+#################### ATLAS ##################################
+
+compileKernel_atlas:
+	$(CC) $(KERNELDIR)/$(KERNEL).c $(CFLAG) -c \
+		-DNT=${NT} -DNT1=${NT1} -DNT2=${NT2} \
+		-o $(KERNELDIR)/$(KERNEL).o $(INCLUDE_ATLAS)
+
+validKernel_atlas:
+	$(CC) valid_test.c $(KERNELDIR)/$(KERNEL).o $(CFLAG) \
+		-o $(KERNELDIR)/$(KERNEL).valid $(INCLUDE_ATLAS) \
+		-DMSIZE=$M -DNSIZE=$N -DKSIZE=$K -DNT=${NT} -DNT1=${NT1} -DNT2=${NT2}
+	sh ./set_affinity.sh ${NT1} ${NT2} ./$(KERNELDIR)/$(KERNEL).valid > $(RECORDDIR)/$(KERNEL).out
+
+flopsKernel_atlas:
+	$(CC) flops_test.c $(KERNELDIR)/$(KERNEL).o $(CFLAG) \
+		-o $(KERNELDIR)/$(KERNEL).flops $(INCLUDE_ATLAS) \
+		-DMSIZE=$M -DNSIZE=$N -DKSIZE=$K -DNT=${NT} -DNT1=${NT1} -DNT2=${NT2}
+
+executeKernel_atlas:
+	sh ./set_affinity.sh ${NT1} ${NT2} ./$(KERNELDIR)/$(KERNEL).flops >> $(RECORDDIR)/$(KERNEL).res
+
+#################### BLIS ##################################
+
+compileKernel_blis:
+	$(CC) $(KERNELDIR)/$(KERNEL).c $(CFLAG) -c \
+		-DNT=${NT} -DNT1=${NT1} -DNT2=${NT2} \
+		-o $(KERNELDIR)/$(KERNEL).o $(INCLUDE_BLIS)
+
+validKernel_blis:
+	$(CC) valid_test.c $(KERNELDIR)/$(KERNEL).o $(CFLAG) \
+		-o $(KERNELDIR)/$(KERNEL).valid $(INCLUDE_BLIS) \
+		-DMSIZE=$M -DNSIZE=$N -DKSIZE=$K -DNT=${NT} -DNT1=${NT1} -DNT2=${NT2}
+	sh ./set_affinity.sh ${NT1} ${NT2} ./$(KERNELDIR)/$(KERNEL).valid > $(RECORDDIR)/$(KERNEL).out
+
+flopsKernel_blis:
+	$(CC) flops_test.c $(KERNELDIR)/$(KERNEL).o $(CFLAG) \
+		-o $(KERNELDIR)/$(KERNEL).flops $(INCLUDE_BLIS) \
+		-DMSIZE=$M -DNSIZE=$N -DKSIZE=$K -DNT=${NT} -DNT1=${NT1} -DNT2=${NT2}
+
+executeKernel:
+	sh ./set_affinity.sh ${NT1} ${NT2} ./$(KERNELDIR)/$(KERNEL).flops >> $(RECORDDIR)/$(KERNEL).res
+
+###########################################################
+
+clear :
+	rm $(KERNELDIR)/* -f
+	rm $(RECORDDIR)/* -f
+	cp $(RESULTDIR)/dMMRES.sum $(RESULTDIR)/dMMRES.backup
+	rm $(RESULTDIR)/dMMRES.sum -f
+				

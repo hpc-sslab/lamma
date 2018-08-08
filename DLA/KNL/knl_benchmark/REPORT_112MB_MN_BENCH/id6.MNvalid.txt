@@ -1,0 +1,60 @@
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	0.077465, Gflops	516.361846 
+|| C-C_mkl || = 1.146810e-09
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	0.150336, Gflops	1064.282481 
+|| C-C_mkl || = 2.300803e-09
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	0.258341, Gflops	1393.506632 
+|| C-C_mkl || = 3.449667e-09
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	0.413165, Gflops	1549.018494 
+|| C-C_mkl || = 4.603027e-09
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	0.615558, Gflops	1624.542525 
+|| C-C_mkl || = 5.748979e-09
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	0.861999, Gflops	1670.535513 
+|| C-C_mkl || = 6.904694e-09
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	1.138796, Gflops	1721.115848 
+|| C-C_mkl || = 8.052359e-09
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	1.462884, Gflops	1749.967932 
+|| C-C_mkl || = 9.206395e-09
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	1.832570, Gflops	1768.009019 
+|| C-C_mkl || = 1.035272e-08
+--------- mine ----------
+omp_place = cores(68) / omp_num_threads = 17,4
+omp_stacksize = 112M
+valid_test start
+dgemm time (sec)	2.256564, Gflops	1772.606384 
+|| C-C_mkl || = 1.150780e-08

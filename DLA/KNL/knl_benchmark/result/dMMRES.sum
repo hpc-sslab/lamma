@@ -1,0 +1,182 @@
+id 0
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 1
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 2
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 3
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 4
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 5
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 6
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 7
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 8
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+id 9
+1.1x1kernel1x1x1_1x1x1_0+0
+mflop 0.000000
+mu 1
+nu 1
+ku 1
+mb 1
+nb 1
+kb 1
+prefetchA1 0
+prefetchA2 0
+prefetchB1 0
+prefetchB2 0
+nPack 1
+ni 1
+njr 1
+valid = -1.000000
+-------------------------------------
+total time cost : 4.205878
+total number of kernel : 0
