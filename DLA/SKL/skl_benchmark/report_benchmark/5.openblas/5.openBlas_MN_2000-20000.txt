@@ -1,0 +1,280 @@
+------ id= openBlas size= 2000 ----------
+--------- openBlas ----------
+m, n, k : 2000 2000 5000
+dgemm time (sec)	0.102664, Gflops	389.620533 
+dgemm time (sec)	0.081493, Gflops	490.838865 
+dgemm time (sec)	0.081682, Gflops	489.704173 
+dgemm time (sec)	0.081529, Gflops	490.623558 
+dgemm time (sec)	0.081175, Gflops	492.763458 
+maximum Gflops : 492.763458
+average Gflops : 491.408627
+--------- openBlas ----------
+m, n, k : 2000 2000 5000
+dgemm time (sec)	0.090173, Gflops	443.591733 
+dgemm time (sec)	0.080947, Gflops	494.150968 
+dgemm time (sec)	0.081637, Gflops	489.974475 
+dgemm time (sec)	0.081349, Gflops	491.709193 
+dgemm time (sec)	0.081137, Gflops	492.992237 
+maximum Gflops : 494.150968
+average Gflops : 492.950799
+--------- openBlas ----------
+m, n, k : 2000 2000 5000
+dgemm time (sec)	0.104789, Gflops	381.719387 
+dgemm time (sec)	0.088957, Gflops	449.655091 
+dgemm time (sec)	0.088424, Gflops	452.366040 
+dgemm time (sec)	0.086686, Gflops	461.434811 
+dgemm time (sec)	0.088511, Gflops	451.921280 
+maximum Gflops : 461.434811
+average Gflops : 455.240711
+------ id= openBlas size= 4000 ----------
+--------- openBlas ----------
+m, n, k : 4000 4000 5000
+dgemm time (sec)	0.486154, Gflops	329.113766 
+dgemm time (sec)	0.446164, Gflops	358.612423 
+dgemm time (sec)	0.450054, Gflops	355.512949 
+dgemm time (sec)	0.448110, Gflops	357.055105 
+dgemm time (sec)	0.441847, Gflops	362.116228 
+maximum Gflops : 362.116228
+average Gflops : 359.261252
+--------- openBlas ----------
+m, n, k : 4000 4000 5000
+dgemm time (sec)	0.503158, Gflops	317.991507 
+dgemm time (sec)	0.455019, Gflops	351.633670 
+dgemm time (sec)	0.455699, Gflops	351.108797 
+dgemm time (sec)	0.454589, Gflops	351.966367 
+dgemm time (sec)	0.411879, Gflops	388.463543 
+maximum Gflops : 388.463543
+average Gflops : 364.021193
+--------- openBlas ----------
+m, n, k : 4000 4000 5000
+dgemm time (sec)	0.481393, Gflops	332.368868 
+dgemm time (sec)	0.441913, Gflops	362.062306 
+dgemm time (sec)	0.443218, Gflops	360.996175 
+dgemm time (sec)	0.372165, Gflops	429.916879 
+dgemm time (sec)	0.332547, Gflops	481.135071 
+maximum Gflops : 481.135071
+average Gflops : 424.371419
+------ id= openBlas size= 6000 ----------
+--------- openBlas ----------
+m, n, k : 6000 6000 5000
+dgemm time (sec)	1.081276, Gflops	332.939916 
+dgemm time (sec)	0.737427, Gflops	488.183918 
+dgemm time (sec)	0.721625, Gflops	498.874007 
+dgemm time (sec)	0.722725, Gflops	498.114833 
+dgemm time (sec)	0.717409, Gflops	501.805877 
+maximum Gflops : 501.805877
+average Gflops : 499.598239
+--------- openBlas ----------
+m, n, k : 6000 6000 5000
+dgemm time (sec)	0.975125, Gflops	369.183410 
+dgemm time (sec)	0.656783, Gflops	548.126159 
+dgemm time (sec)	0.630396, Gflops	571.069498 
+dgemm time (sec)	0.633794, Gflops	568.007840 
+dgemm time (sec)	0.609967, Gflops	590.195870 
+maximum Gflops : 590.195870
+average Gflops : 576.424402
+--------- openBlas ----------
+m, n, k : 6000 6000 5000
+dgemm time (sec)	0.974627, Gflops	369.372071 
+dgemm time (sec)	0.661215, Gflops	544.452203 
+dgemm time (sec)	0.680079, Gflops	529.350280 
+dgemm time (sec)	0.644818, Gflops	558.297011 
+dgemm time (sec)	0.640259, Gflops	562.272431 
+maximum Gflops : 562.272431
+average Gflops : 555.007215
+------ id= openBlas size= 8000 ----------
+--------- openBlas ----------
+m, n, k : 8000 8000 5000
+dgemm time (sec)	1.760109, Gflops	363.613806 
+dgemm time (sec)	1.561158, Gflops	409.952115 
+dgemm time (sec)	1.534970, Gflops	416.946312 
+dgemm time (sec)	1.514268, Gflops	422.646476 
+dgemm time (sec)	1.471753, Gflops	434.855541 
+maximum Gflops : 434.855541
+average Gflops : 424.816110
+--------- openBlas ----------
+m, n, k : 8000 8000 5000
+dgemm time (sec)	1.475264, Gflops	433.820637 
+dgemm time (sec)	1.178289, Gflops	543.160493 
+dgemm time (sec)	1.312061, Gflops	487.782261 
+dgemm time (sec)	1.132712, Gflops	565.015700 
+dgemm time (sec)	1.015789, Gflops	630.052235 
+maximum Gflops : 630.052235
+average Gflops : 579.409476
+--------- openBlas ----------
+m, n, k : 8000 8000 5000
+dgemm time (sec)	1.733797, Gflops	369.132011 
+dgemm time (sec)	1.758516, Gflops	363.943219 
+dgemm time (sec)	1.722231, Gflops	371.611028 
+dgemm time (sec)	1.679518, Gflops	381.061713 
+dgemm time (sec)	1.710804, Gflops	374.093120 
+maximum Gflops : 381.061713
+average Gflops : 375.588620
+------ id= openBlas size= 10000 ----------
+--------- openBlas ----------
+m, n, k : 10000 10000 5000
+dgemm time (sec)	1.895143, Gflops	527.664658 
+dgemm time (sec)	1.526095, Gflops	655.267239 
+dgemm time (sec)	1.518013, Gflops	658.755887 
+dgemm time (sec)	1.569903, Gflops	636.982072 
+dgemm time (sec)	1.572981, Gflops	635.735636 
+maximum Gflops : 658.755887
+average Gflops : 650.335066
+--------- openBlas ----------
+m, n, k : 10000 10000 5000
+dgemm time (sec)	2.198002, Gflops	454.958668 
+dgemm time (sec)	2.091944, Gflops	478.024273 
+dgemm time (sec)	1.958127, Gflops	510.692100 
+dgemm time (sec)	1.796733, Gflops	556.565679 
+dgemm time (sec)	1.809354, Gflops	552.683424 
+maximum Gflops : 556.565679
+average Gflops : 539.980401
+--------- openBlas ----------
+m, n, k : 10000 10000 5000
+dgemm time (sec)	1.906117, Gflops	524.626712 
+dgemm time (sec)	1.646048, Gflops	607.515761 
+dgemm time (sec)	1.595115, Gflops	626.913974 
+dgemm time (sec)	1.619196, Gflops	617.590391 
+dgemm time (sec)	1.615784, Gflops	618.894632 
+maximum Gflops : 626.913974
+average Gflops : 621.132999
+------ id= openBlas size= 12000 ----------
+--------- openBlas ----------
+m, n, k : 12000 12000 5000
+dgemm time (sec)	3.073592, Gflops	468.507178 
+dgemm time (sec)	2.704297, Gflops	532.485926 
+dgemm time (sec)	2.473517, Gflops	582.167025 
+dgemm time (sec)	2.467854, Gflops	583.502965 
+dgemm time (sec)	2.425847, Gflops	593.607086 
+maximum Gflops : 593.607086
+average Gflops : 586.425692
+--------- openBlas ----------
+m, n, k : 12000 12000 5000
+dgemm time (sec)	2.778722, Gflops	518.223836 
+dgemm time (sec)	2.436627, Gflops	590.980914 
+dgemm time (sec)	2.361008, Gflops	609.908945 
+dgemm time (sec)	2.354176, Gflops	611.678979 
+dgemm time (sec)	2.354633, Gflops	611.560311 
+maximum Gflops : 611.678979
+average Gflops : 611.049412
+--------- openBlas ----------
+m, n, k : 12000 12000 5000
+dgemm time (sec)	2.884111, Gflops	499.287273 
+dgemm time (sec)	2.269258, Gflops	634.568650 
+dgemm time (sec)	2.337491, Gflops	616.045143 
+dgemm time (sec)	2.373174, Gflops	606.782322 
+dgemm time (sec)	2.317036, Gflops	621.483613 
+maximum Gflops : 634.568650
+average Gflops : 624.032469
+------ id= openBlas size= 14000 ----------
+--------- openBlas ----------
+m, n, k : 14000 14000 5000
+dgemm time (sec)	3.453720, Gflops	567.504009 
+dgemm time (sec)	3.025874, Gflops	647.746704 
+dgemm time (sec)	2.929605, Gflops	669.032226 
+dgemm time (sec)	2.910946, Gflops	673.320602 
+dgemm time (sec)	2.898317, Gflops	676.254507 
+maximum Gflops : 676.254507
+average Gflops : 672.869111
+--------- openBlas ----------
+m, n, k : 14000 14000 5000
+dgemm time (sec)	3.418520, Gflops	573.347535 
+dgemm time (sec)	2.964663, Gflops	661.120667 
+dgemm time (sec)	2.792927, Gflops	701.772721 
+dgemm time (sec)	2.822922, Gflops	694.316034 
+dgemm time (sec)	2.828322, Gflops	692.990418 
+maximum Gflops : 701.772721
+average Gflops : 696.359724
+--------- openBlas ----------
+m, n, k : 14000 14000 5000
+dgemm time (sec)	3.347933, Gflops	585.435840 
+dgemm time (sec)	2.957809, Gflops	662.652666 
+dgemm time (sec)	2.824343, Gflops	693.966711 
+dgemm time (sec)	2.853319, Gflops	686.919355 
+dgemm time (sec)	2.842705, Gflops	689.484133 
+maximum Gflops : 693.966711
+average Gflops : 690.123400
+------ id= openBlas size= 16000 ----------
+--------- openBlas ----------
+m, n, k : 16000 16000 5000
+dgemm time (sec)	4.622906, Gflops	553.764238 
+dgemm time (sec)	4.114058, Gflops	622.256660 
+dgemm time (sec)	3.945238, Gflops	648.883561 
+dgemm time (sec)	3.713152, Gflops	689.441221 
+dgemm time (sec)	3.710119, Gflops	690.004820 
+maximum Gflops : 690.004820
+average Gflops : 676.109867
+--------- openBlas ----------
+m, n, k : 16000 16000 5000
+dgemm time (sec)	4.644326, Gflops	551.210233 
+dgemm time (sec)	4.112549, Gflops	622.485010 
+dgemm time (sec)	3.587327, Gflops	713.623263 
+dgemm time (sec)	3.648848, Gflops	701.591286 
+dgemm time (sec)	3.630808, Gflops	705.077241 
+maximum Gflops : 713.623263
+average Gflops : 706.763930
+--------- openBlas ----------
+m, n, k : 16000 16000 5000
+dgemm time (sec)	4.839423, Gflops	528.988690 
+dgemm time (sec)	5.056633, Gflops	506.265731 
+dgemm time (sec)	4.506788, Gflops	568.032042 
+dgemm time (sec)	4.297038, Gflops	595.759241 
+dgemm time (sec)	3.766516, Gflops	679.673210 
+maximum Gflops : 679.673210
+average Gflops : 614.488164
+------ id= openBlas size= 18000 ----------
+--------- openBlas ----------
+m, n, k : 18000 18000 5000
+dgemm time (sec)	5.318126, Gflops	609.237168 
+dgemm time (sec)	4.517560, Gflops	717.201320 
+dgemm time (sec)	3.980505, Gflops	813.967074 
+dgemm time (sec)	4.056801, Gflops	798.658876 
+dgemm time (sec)	4.139316, Gflops	782.738002 
+maximum Gflops : 813.967074
+average Gflops : 798.454651
+--------- openBlas ----------
+m, n, k : 18000 18000 5000
+dgemm time (sec)	5.195031, Gflops	623.672899 
+dgemm time (sec)	4.557150, Gflops	710.970653 
+dgemm time (sec)	4.153287, Gflops	780.105023 
+dgemm time (sec)	4.197979, Gflops	771.799959 
+dgemm time (sec)	4.113380, Gflops	787.673406 
+maximum Gflops : 787.673406
+average Gflops : 779.859463
+--------- openBlas ----------
+m, n, k : 18000 18000 5000
+dgemm time (sec)	5.429529, Gflops	596.736849 
+dgemm time (sec)	4.256854, Gflops	761.125459 
+dgemm time (sec)	3.968433, Gflops	816.443136 
+dgemm time (sec)	3.904219, Gflops	829.871499 
+dgemm time (sec)	3.959868, Gflops	818.209101 
+maximum Gflops : 829.871499
+average Gflops : 821.507912
+------ id= openBlas size= 20000 ----------
+--------- openBlas ----------
+m, n, k : 20000 20000 5000
+dgemm time (sec)	6.701945, Gflops	596.841657 
+dgemm time (sec)	5.633464, Gflops	710.042720 
+dgemm time (sec)	4.843492, Gflops	825.850435 
+dgemm time (sec)	4.845804, Gflops	825.456420 
+dgemm time (sec)	4.846545, Gflops	825.330213 
+maximum Gflops : 825.850435
+average Gflops : 825.545689
+--------- openBlas ----------
+m, n, k : 20000 20000 5000
+dgemm time (sec)	6.629590, Gflops	603.355559 
+dgemm time (sec)	5.509876, Gflops	725.969149 
+dgemm time (sec)	4.956598, Gflops	807.005120 
+dgemm time (sec)	4.784866, Gflops	835.969058 
+dgemm time (sec)	4.791011, Gflops	834.896877 
+maximum Gflops : 835.969058
+average Gflops : 825.957018
+--------- openBlas ----------
+m, n, k : 20000 20000 5000
+dgemm time (sec)	6.551413, Gflops	610.555327 
+dgemm time (sec)	5.621974, Gflops	711.493864 
+dgemm time (sec)	5.176318, Gflops	772.750026 
+dgemm time (sec)	5.229746, Gflops	764.855521 
+dgemm time (sec)	5.267024, Gflops	759.442173 
+maximum Gflops : 772.750026
+average Gflops : 765.682573

@@ -1,0 +1,7 @@
+L1size 32768
+L2size 1048576
+L3size 31457280
+numberOfThreads 44
+affinity 0:44:1
+numberOfRegister 32
+

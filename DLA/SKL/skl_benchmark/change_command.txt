@@ -1,0 +1,23 @@
+:1,%s/mflop /#mflop
+:1,%s/valid = 0.000000
+:1,%s/id /id=
+:1,%s/16.11x4kernel/kernel=16.11x4kernel
+:1,%s/16.22x2kernel/kernel=16.22x2kernel
+:1,%s/16.44x1kernel/kernel=16.44x1kernel
+:1,%s/11.11x4kernel/kernel=11.11x4kernel
+:1,%s/22.22x2kernel/kernel=22.22x2kernel
+:1,%s/44.44x1kernel/kernel=44.44x1kernel
+:1,%s/mu /mu=
+:1,%s/nu /nu=
+:1,%s/ku /ku=
+:1,%s/mb /mb=
+:1,%s/nb /nb=
+:1,%s/kb /kb=
+:1,%s/prefetchA1 /prefetchA1=
+:1,%s/prefetchA2 /prefetchA2=
+:1,%s/prefetchB1 /prefetchB1=
+:1,%s/prefetchB2 /prefetchB2=
+:1,%s/nPack /nPack=
+:1,%s/ni /ni=
+:1,%s/njr /njr=
+:1,%s/executeValid=/executeValid

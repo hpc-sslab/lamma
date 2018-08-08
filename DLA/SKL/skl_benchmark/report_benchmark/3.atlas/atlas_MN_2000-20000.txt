@@ -1,0 +1,280 @@
+------ id= 0 size= 2000 ----------
+--------- atlas ----------
+m, n, k : 2000 2000 5000
+dgemm time (sec)	0.103902, Gflops	384.978660 
+dgemm time (sec)	0.100211, Gflops	399.157206 
+dgemm time (sec)	0.093904, Gflops	425.966861 
+dgemm time (sec)	0.088133, Gflops	453.859010 
+dgemm time (sec)	0.091447, Gflops	437.411284 
+maximum Gflops : 453.859010
+average Gflops : 439.079052
+--------- atlas ----------
+m, n, k : 2000 2000 5000
+dgemm time (sec)	0.106622, Gflops	375.157165 
+dgemm time (sec)	0.096076, Gflops	416.337016 
+dgemm time (sec)	0.088175, Gflops	453.643023 
+dgemm time (sec)	0.086405, Gflops	462.935965 
+dgemm time (sec)	0.087472, Gflops	457.288142 
+maximum Gflops : 462.935965
+average Gflops : 457.955710
+--------- atlas ----------
+m, n, k : 2000 2000 5000
+dgemm time (sec)	0.101827, Gflops	392.823483 
+dgemm time (sec)	0.095494, Gflops	418.874344 
+dgemm time (sec)	0.090576, Gflops	441.618413 
+dgemm time (sec)	0.087197, Gflops	458.732289 
+dgemm time (sec)	0.092256, Gflops	433.576931 
+maximum Gflops : 458.732289
+average Gflops : 444.642544
+------ id= 0 size= 4000 ----------
+--------- atlas ----------
+m, n, k : 4000 4000 5000
+dgemm time (sec)	0.280706, Gflops	569.991523 
+dgemm time (sec)	0.268404, Gflops	596.116287 
+dgemm time (sec)	0.265672, Gflops	602.246450 
+dgemm time (sec)	0.263114, Gflops	608.101488 
+dgemm time (sec)	0.258075, Gflops	619.974816 
+maximum Gflops : 619.974816
+average Gflops : 610.107585
+--------- atlas ----------
+m, n, k : 4000 4000 5000
+dgemm time (sec)	0.281483, Gflops	568.418118 
+dgemm time (sec)	0.265769, Gflops	602.026561 
+dgemm time (sec)	0.264438, Gflops	605.056959 
+dgemm time (sec)	0.262241, Gflops	610.126064 
+dgemm time (sec)	0.265931, Gflops	601.660076 
+maximum Gflops : 610.126064
+average Gflops : 605.736528
+--------- atlas ----------
+m, n, k : 4000 4000 5000
+dgemm time (sec)	0.278018, Gflops	575.502310 
+dgemm time (sec)	0.262668, Gflops	609.134209 
+dgemm time (sec)	0.259830, Gflops	615.787250 
+dgemm time (sec)	0.261782, Gflops	611.195736 
+dgemm time (sec)	0.266743, Gflops	599.828423 
+maximum Gflops : 615.787250
+average Gflops : 612.039065
+------ id= 0 size= 6000 ----------
+--------- atlas ----------
+m, n, k : 6000 6000 5000
+dgemm time (sec)	0.533434, Gflops	674.872726 
+dgemm time (sec)	0.522219, Gflops	689.366031 
+dgemm time (sec)	0.534902, Gflops	673.020658 
+dgemm time (sec)	0.542274, Gflops	663.871034 
+dgemm time (sec)	0.543792, Gflops	662.017819 
+maximum Gflops : 689.366031
+average Gflops : 679.086472
+--------- atlas ----------
+m, n, k : 6000 6000 5000
+dgemm time (sec)	0.565787, Gflops	636.281765 
+dgemm time (sec)	0.541158, Gflops	665.240144 
+dgemm time (sec)	0.544287, Gflops	661.415512 
+dgemm time (sec)	0.545663, Gflops	659.747723 
+dgemm time (sec)	0.547367, Gflops	657.694186 
+maximum Gflops : 665.240144
+average Gflops : 662.134460
+--------- atlas ----------
+m, n, k : 6000 6000 5000
+dgemm time (sec)	0.559048, Gflops	643.951933 
+dgemm time (sec)	0.541470, Gflops	664.856716 
+dgemm time (sec)	0.540176, Gflops	666.449559 
+dgemm time (sec)	0.547459, Gflops	657.583626 
+dgemm time (sec)	0.554779, Gflops	648.906981 
+maximum Gflops : 666.449559
+average Gflops : 662.963300
+------ id= 0 size= 8000 ----------
+--------- atlas ----------
+m, n, k : 8000 8000 5000
+dgemm time (sec)	0.973110, Gflops	657.685180 
+dgemm time (sec)	0.967226, Gflops	661.686081 
+dgemm time (sec)	0.996865, Gflops	642.012688 
+dgemm time (sec)	0.991095, Gflops	645.750364 
+dgemm time (sec)	0.990792, Gflops	645.947865 
+maximum Gflops : 661.686081
+average Gflops : 655.106375
+--------- atlas ----------
+m, n, k : 8000 8000 5000
+dgemm time (sec)	1.021984, Gflops	626.232835 
+dgemm time (sec)	0.988255, Gflops	647.606118 
+dgemm time (sec)	1.008487, Gflops	634.614039 
+dgemm time (sec)	1.026114, Gflops	623.712383 
+dgemm time (sec)	1.036373, Gflops	617.538340 
+maximum Gflops : 647.606118
+average Gflops : 636.150997
+--------- atlas ----------
+m, n, k : 8000 8000 5000
+dgemm time (sec)	0.988759, Gflops	647.276003 
+dgemm time (sec)	0.980585, Gflops	652.671554 
+dgemm time (sec)	1.020886, Gflops	626.906320 
+dgemm time (sec)	1.019960, Gflops	627.475632 
+dgemm time (sec)	1.032651, Gflops	619.763971 
+maximum Gflops : 652.671554
+average Gflops : 642.474397
+------ id= 0 size= 10000 ----------
+--------- atlas ----------
+m, n, k : 10000 10000 5000
+dgemm time (sec)	1.462445, Gflops	683.786389 
+dgemm time (sec)	1.495870, Gflops	668.507239 
+dgemm time (sec)	1.561677, Gflops	640.337287 
+dgemm time (sec)	1.537362, Gflops	650.464946 
+dgemm time (sec)	1.506192, Gflops	663.925889 
+maximum Gflops : 683.786389
+average Gflops : 672.073172
+--------- atlas ----------
+m, n, k : 10000 10000 5000
+dgemm time (sec)	1.465975, Gflops	682.139851 
+dgemm time (sec)	1.472966, Gflops	678.902317 
+dgemm time (sec)	1.559570, Gflops	641.202352 
+dgemm time (sec)	1.490396, Gflops	670.962714 
+dgemm time (sec)	1.500338, Gflops	666.516444 
+maximum Gflops : 682.139851
+average Gflops : 677.334961
+--------- atlas ----------
+m, n, k : 10000 10000 5000
+dgemm time (sec)	1.512031, Gflops	661.362172 
+dgemm time (sec)	1.489397, Gflops	671.412744 
+dgemm time (sec)	1.552942, Gflops	643.939037 
+dgemm time (sec)	1.489290, Gflops	671.460790 
+dgemm time (sec)	1.501285, Gflops	666.096011 
+maximum Gflops : 671.460790
+average Gflops : 669.656515
+------ id= 0 size= 12000 ----------
+--------- atlas ----------
+m, n, k : 12000 12000 5000
+dgemm time (sec)	2.049703, Gflops	702.540847 
+dgemm time (sec)	2.193009, Gflops	656.632082 
+dgemm time (sec)	2.104039, Gflops	684.397975 
+dgemm time (sec)	2.095067, Gflops	687.328846 
+dgemm time (sec)	2.121093, Gflops	678.895257 
+maximum Gflops : 702.540847
+average Gflops : 691.422556
+--------- atlas ----------
+m, n, k : 12000 12000 5000
+dgemm time (sec)	2.097662, Gflops	686.478574 
+dgemm time (sec)	2.172337, Gflops	662.880558 
+dgemm time (sec)	2.159793, Gflops	666.730593 
+dgemm time (sec)	2.111095, Gflops	682.110484 
+dgemm time (sec)	2.096516, Gflops	686.853844 
+maximum Gflops : 686.853844
+average Gflops : 685.147634
+--------- atlas ----------
+m, n, k : 12000 12000 5000
+dgemm time (sec)	2.032861, Gflops	708.361272 
+dgemm time (sec)	2.196260, Gflops	655.660084 
+dgemm time (sec)	2.085734, Gflops	690.404469 
+dgemm time (sec)	2.127693, Gflops	676.789312 
+dgemm time (sec)	2.103071, Gflops	684.712905 
+maximum Gflops : 708.361272
+average Gflops : 694.492882
+------ id= 0 size= 14000 ----------
+--------- atlas ----------
+m, n, k : 14000 14000 5000
+dgemm time (sec)	2.876740, Gflops	681.326785 
+dgemm time (sec)	2.970150, Gflops	659.899333 
+dgemm time (sec)	2.914840, Gflops	672.421132 
+dgemm time (sec)	2.976620, Gflops	658.464979 
+dgemm time (sec)	2.906074, Gflops	674.449435 
+maximum Gflops : 681.326785
+average Gflops : 676.065784
+--------- atlas ----------
+m, n, k : 14000 14000 5000
+dgemm time (sec)	2.842323, Gflops	689.576785 
+dgemm time (sec)	2.977812, Gflops	658.201379 
+dgemm time (sec)	2.905875, Gflops	674.495586 
+dgemm time (sec)	2.982248, Gflops	657.222322 
+dgemm time (sec)	2.914781, Gflops	672.434772 
+maximum Gflops : 689.576785
+average Gflops : 678.835714
+--------- atlas ----------
+m, n, k : 14000 14000 5000
+dgemm time (sec)	3.011421, Gflops	650.855482 
+dgemm time (sec)	2.973201, Gflops	659.222157 
+dgemm time (sec)	2.894151, Gflops	677.227974 
+dgemm time (sec)	2.902197, Gflops	675.350460 
+dgemm time (sec)	2.939837, Gflops	666.703635 
+maximum Gflops : 677.227974
+average Gflops : 673.094023
+------ id= 0 size= 16000 ----------
+--------- atlas ----------
+m, n, k : 16000 16000 5000
+dgemm time (sec)	3.864045, Gflops	662.518181 
+dgemm time (sec)	3.914515, Gflops	653.976288 
+dgemm time (sec)	3.804449, Gflops	672.896376 
+dgemm time (sec)	3.833885, Gflops	667.730000 
+dgemm time (sec)	3.826434, Gflops	669.030201 
+maximum Gflops : 672.896376
+average Gflops : 669.885526
+--------- atlas ----------
+m, n, k : 16000 16000 5000
+dgemm time (sec)	3.986547, Gflops	642.159745 
+dgemm time (sec)	3.854590, Gflops	664.143238 
+dgemm time (sec)	3.789964, Gflops	675.468164 
+dgemm time (sec)	3.834829, Gflops	667.565646 
+dgemm time (sec)	3.795027, Gflops	674.567003 
+maximum Gflops : 675.468164
+average Gflops : 672.533604
+--------- atlas ----------
+m, n, k : 16000 16000 5000
+dgemm time (sec)	3.807398, Gflops	672.375230 
+dgemm time (sec)	3.879089, Gflops	659.948746 
+dgemm time (sec)	3.822663, Gflops	669.690243 
+dgemm time (sec)	3.851612, Gflops	664.656798 
+dgemm time (sec)	3.796264, Gflops	674.347212 
+maximum Gflops : 674.347212
+average Gflops : 672.137562
+------ id= 0 size= 18000 ----------
+--------- atlas ----------
+m, n, k : 18000 18000 5000
+dgemm time (sec)	4.783371, Gflops	677.346587 
+dgemm time (sec)	4.865228, Gflops	665.950299 
+dgemm time (sec)	4.767412, Gflops	679.614020 
+dgemm time (sec)	4.799968, Gflops	675.004499 
+dgemm time (sec)	4.800609, Gflops	674.914388 
+maximum Gflops : 679.614020
+average Gflops : 677.321702
+--------- atlas ----------
+m, n, k : 18000 18000 5000
+dgemm time (sec)	4.952662, Gflops	654.193645 
+dgemm time (sec)	4.844675, Gflops	668.775502 
+dgemm time (sec)	4.762064, Gflops	680.377251 
+dgemm time (sec)	4.768358, Gflops	679.479185 
+dgemm time (sec)	4.752178, Gflops	681.792650 
+maximum Gflops : 681.792650
+average Gflops : 680.549695
+--------- atlas ----------
+m, n, k : 18000 18000 5000
+dgemm time (sec)	4.870255, Gflops	665.262908 
+dgemm time (sec)	4.811631, Gflops	673.368316 
+dgemm time (sec)	4.734667, Gflops	684.314220 
+dgemm time (sec)	4.773357, Gflops	678.767596 
+dgemm time (sec)	4.760060, Gflops	680.663679 
+maximum Gflops : 684.314220
+average Gflops : 681.248499
+------ id= 0 size= 20000 ----------
+--------- atlas ----------
+m, n, k : 20000 20000 5000
+dgemm time (sec)	5.940880, Gflops	673.300918 
+dgemm time (sec)	5.973567, Gflops	669.616662 
+dgemm time (sec)	5.982850, Gflops	668.577703 
+dgemm time (sec)	5.993055, Gflops	667.439242 
+dgemm time (sec)	5.948788, Gflops	672.405883 
+maximum Gflops : 673.300918
+average Gflops : 671.774488
+--------- atlas ----------
+m, n, k : 20000 20000 5000
+dgemm time (sec)	5.974703, Gflops	669.489364 
+dgemm time (sec)	6.055464, Gflops	660.560469 
+dgemm time (sec)	5.886605, Gflops	679.508814 
+dgemm time (sec)	5.972627, Gflops	669.722059 
+dgemm time (sec)	6.024131, Gflops	663.996204 
+maximum Gflops : 679.508814
+average Gflops : 672.906746
+--------- atlas ----------
+m, n, k : 20000 20000 5000
+dgemm time (sec)	6.003632, Gflops	666.263348 
+dgemm time (sec)	6.053189, Gflops	660.808703 
+dgemm time (sec)	5.922406, Gflops	675.401185 
+dgemm time (sec)	5.856125, Gflops	683.045516 
+dgemm time (sec)	6.031982, Gflops	663.131958 
+maximum Gflops : 683.045516
+average Gflops : 674.903349
